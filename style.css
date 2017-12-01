@@ -1,0 +1,56 @@
+.score{
+	display:flex;
+	font-family:Helvetica;  
+	font-size:15px;
+	top:0;
+	position:fixed;
+}
+#correct{
+	right:0;
+	position: absolute;
+	color:green;
+	margin-right:0.5vmax;
+	position:fixed;
+}
+#wrong{
+	color:red;
+	margin-left:0.5vmax;
+	position:fixed;
+}
+h1{
+	margin:0 auto;
+	margin-top:40px;
+	text-align:center;
+	font-family:sans-serif;
+}
+h2{
+	text-align:center;
+	font-family:sans-serif;
+}
+h3{
+	margin-left:15%;
+	cursor:pointer;
+	font-family:sans-serif;
+}
+input{
+	width:70%;
+	height:5vmax;
+	font-size:3vmax;
+	margin-left:15%;
+}
+footer{
+	bottom:0;
+	left:0;
+	position:fixed;
+	font-size:0.75em;
+}
+#timer{
+	display:none;
+}
+.wrong_char{
+	color:blue;
+	font-weight: 900;
+}
+#correct_hide{
+	text-align:center;
+}
